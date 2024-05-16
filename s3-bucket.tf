@@ -1,5 +1,4 @@
-module "s3" {
-  source  = "app.terraform.io/likz_dev/s3/aws"
-  version = "0.0.9"
-  bucket_name = "likz-aws-demo"
+module "s3-bucket" {
+  source  = "app.terraform.io/likz_dev/s3-bucket/aws"
+  version = "4.1.2"
 }
